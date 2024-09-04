@@ -1,0 +1,21 @@
+.element {
+    color: black;
+    background-color:rgb(240, 122, 122);
+    font-family:'Verdana','DejaVu Sans', 'sans-serif';
+
+}
+
+#title {
+    color: blue;
+    font-size: 36px;
+}
+
+.alert-text {
+    font-size: 24px;
+}
+
+#heading {
+    background-color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
