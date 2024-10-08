@@ -1,19 +1,3 @@
-const strings = ['rock', 'paper', 'scissors'];
-
-function getComputerChoice() {
-    const randomChoice = Math.floor(Math.random() * strings.length);
-    return strings[randomChoice];
-}
-function getHumanChoice() {
-    const choices = ["rock", "paper", "scissors"];
-    const humanChoice = prompt("Please enter rock, paper, or scissors: ").toLowerCase(); // Get user input
-    if (!choices.includes(humanChoice)) {
-        return "Invalid selection"; // Check if input is valid
-    } else {
-        return humanChoice; // Return valid input
-    }
-}
-
 function playGame() {
     // Initialize score variables inside the playGame function
     let humanScore = 0;
